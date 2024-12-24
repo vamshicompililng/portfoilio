@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <style>
+        /* Define CSS styling for <span> elements */
+        span {
+            color: var(--main-color); /* Set text color using CSS variable */
+        }
+    </style>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "zJU2Co7TIRRyOeu7O",
+  });
+})();
+</script>
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Home section designer -->
+    <section class="home" id="home"> 
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Vamshi Artham</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>               
+            <p> A passionate frontend developer with expertise in Web Development and MERN Stack Development. I thrive on creating visually appealing and user-friendly web applications.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/vamshicompililng"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vamshi-artham/ "><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="VamshiResume.pdf" class="btn" download>Download Resume</a>
+
+
+        </div>
+        <div class="home-img">
+            <img src="2.jpg" alt="">
+        </div>
+    </section>
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img"> 
+            <img src="7.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>As a frontend developer, I focus on crafting seamless user experiences through clean and efficient code. My skill set includes HTML, CSS, JavaScript, and various front-end frameworks. Additionally, I have strong proficiency in Core Java and Python, which allows me to approach problems with a versatile and comprehensive toolkit. I am dedicated to staying updated with the latest industry trends and technologies to deliver high-quality projects.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <!-- Services Section Design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="Services-containers">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Proficient in HTML, CSS, and JavaScript, I build responsive and interactive websites. I ensure cross-browser compatibility and optimize web performance for a seamless user experience.</p>
+                <a href="#" class="bn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>MERN Stack Developer</h3>
+                <p>Skilled in MongoDB, Express.js, React, and Node.js, I develop full-stack applications that are robust and scalable. My expertise includes RESTful API development, state management with Redux, and implementing authentication and authorization.</p>
+                <a href="#" class="bn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Core Java</h3>
+                <p>With a strong foundation in Core Java, I am adept at object-oriented programming, data structures, and algorithms. I write efficient and maintainable code, and have experience with Java frameworks such as Spring and Hibernate.</p>
+                <a href="#" class="bn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!--f Portfolio Section Design -->
+    <section class="portfolio" id="portfolio ">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container"> 
+            <div class="portfolio-box">
+                <img src="11.png" alt="">
+                <div class="portfolio-layer">
+                    <h4 class="tag">Farm +</h4>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <button id="redirectBtn">Go to Another Page</button>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="12.png" alt="">
+                <div class="portfolio-layer">
+                    <h4 class="tag">NewsFeed</h4>
+
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <button id="redirectBtn2">Go to Another Page</button>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="13.png" alt="">
+                <div class="portfolio-layer">
+                    <h4 class="tag">Speechify</h4>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <button id="redirectBtn3">Go to Another Page</button>
+                </div>
+            </div> 
+
+            <div class="portfolio-box">
+                <img src="14.png" alt="">
+                <div class="portfolio-layer">
+                    <h4 class="tag">TRACKIT</h4>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <button id="redirectBtn4">Go to Another Page</button>
+                </div>
+            </div> 
+            
+            <div class="portfolio-box">
+                <img src="11.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="11.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+       </section>
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="emailForm">
+            <h2>Contact Us</h2>
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Enter your name" required>
+                <input type="email" id="emailAddress" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="mobileNumber" placeholder="Enter your number" required>
+                <input type="text" id="userLocation" placeholder="Enter your location" required>
+            </div>
+            <textarea id="userMessage" placeholder="Enter your message" required></textarea>
+            <button type="button" class="btn" onclick="sendMail()">Send</button>
+        </form>
+    </section>
+    
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024</p>
+        </div>
+        <div class="footer-icon-top">
+            <a href="#Home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
